@@ -60,7 +60,7 @@ int main(){
 
 	RemoveNum(SIZE, array, rnum);
 
-	delete array;
+	delete [] array;
 	array = nullptr;
 	
 
