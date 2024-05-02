@@ -58,7 +58,7 @@ int main(){
 
 	ConcatenationArray(SIZE, array, conc);
 
-	delete array;
+	delete [] array;
 	array = nullptr;
 	
 
